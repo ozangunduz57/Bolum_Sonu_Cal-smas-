@@ -1,0 +1,29 @@
+ul{
+	list-style-type: none;
+    margin: 0;
+	padding: 0;
+}
+
+li{
+	float: left;
+	background-color: red;
+}
+
+li a {
+	width: 118px;
+	text-align: center;
+	display: block;
+	color: white;
+	text-decoration:none;
+	padding: 8px 16px;
+}	
+
+li a:hover{
+	background-color: #d35400;
+    color: black;
+}
+
+h1{
+	font-family: arial;
+	font-style: italic;
+}

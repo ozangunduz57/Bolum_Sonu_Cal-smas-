@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Anasayfa</title>
+	<link rel="stylesheet" type="text/css" href="stil.css">
+</head>
+<body>
+	<div class="container" align="center" style="background-color: lightblue; width: 600px; height: 600px; margin-left: 350px;">
+		<img src="https://eu001.kimbicdns.com/com.tr/data/4/logo.png" style="width: 400px; height:100px; margin-top: 10px;">
+		<hr>
+		<div>
+			<ul>
+				<li><a href="index.html">Anasayfa</a></li>
+				<li><a href="hakkimizda.html">Hakkımızda</a></li>
+				<li><a href="urunler.html" class="active">Ürünler</a></li>
+				<li><a href="iletisim.html">İletişim</a></li>
+			</ul>
+		</div>
+		<hr>
+		<br>
+		<h1>Carrefoursa Online Market</h1>
+		<div>
+			<p style="text-align: center;">
+				Keyifli Alışverişler Dileriz... 
+			</p>
+			<form action="#" method="post">
+				<table border="0">
+					<tr>
+						<td>İsim</td>
+						<td>:</td>
+						<td><input type="text" name="isim" placeholder="İsminizi giriniz."></td>
+					</tr>
+					<tr>
+						<td>Soyisim</td>
+						<td>:</td>
+						<td><input type="text" name="soyisim" placeholder="Soyisiminizi giriniz."></td>
+					</tr>
+					<tr>
+						<td>Semt</td>
+						<td>:</td>
+						<td>
+							<select name="semt">
+								<option value="maltepe">Maltepe</option>
+								<option value="kadikoy" selected>Kadıköy</option>
+								<option value="pendik">Pendik</option>
+								<option value="tuzla">Tuzla</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td>Müşteri No</td>
+						<td>:</td>
+						<td>
+							<input type="password" name="musterino" minlength="8" maxlength="12" required placeholder="Müşteri No giriniz.">
+						</td>
+					</tr>
+					<tr>
+						<td>Ürünler</td>
+						<td>:</td>
+						<td>
+							<input type="checkbox" name="gofret" value="gofret" id="gofret"><label for="gofret">Çikolatalı Gofret</label><br>
+							<input type="checkbox" name="bar" value="bar" id="bar"><label for="bar">Çikolata Bar</label><br>
+							<input type="checkbox" name="kraker" value="kraker" id="kraker"><label for="kraker">Çubuk Kraker</label><br>
+							<input type="checkbox" name="bisküvit" value="bisküvit" id="bisküvit"><label for="bisküvit">Bisküvit</label><br>
+							<input type="checkbox" name="kek" value="kek" id="kek"><label for="kek">Kek</label><br>
+						</td>
+					</tr>
+					<tr>
+						<td>Mesaj</td>
+						<td>:</td>
+						<td>
+							<textarea name="mesaj" placeholder="Bir mesaj yazabilirsiniz."></textarea>
+						</td>
+					</tr>
+					<tr>
+						<td></td>
+						<td></td>
+						<td>
+							<button value="submit">Kaydet</button>
+							<button value="reset">Temizle</button>
+						</td>
+					</tr>
+				</table>
+			</form>
+		</div>
+	</div>
+</body>
+</html>
