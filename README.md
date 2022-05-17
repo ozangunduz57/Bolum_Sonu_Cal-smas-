@@ -1,2 +1,4 @@
-# Bolum_Sonu_Cal-smas-
-Bolum_Sonu_Calısması
+# 3.Hafta Bölüm Sonu Çalışması
+Patika.Dev & Kodluyoruz
+Bölüm Sonu Çalışması
+Mini Carrefoursa Web Sitesi
